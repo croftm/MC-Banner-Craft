@@ -11,6 +11,7 @@ public final class Bannerclone extends JavaPlugin {
         new File("banners").mkdirs();
         System.out.println("Max Croft banner clone is enabled");
         this.getCommand("bannerCreate").setExecutor(new BannerCraft());
+        this.getCommand("bannerList").setExecutor(new BannerList());
     }
 
     @Override

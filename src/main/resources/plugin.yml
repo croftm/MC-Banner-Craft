@@ -5,6 +5,10 @@ api-version: 1.18
 description: This clones banners
 commands:
   bannerCreate:
-    description: saves a banner for crafting
+    description: Saves a banner for crafting
+    usage: /<command>
+    permission: yourplugin.yourcommandpermission
+  bannerList:
+    description: Lists saved banners
     usage: /<command>
     permission: yourplugin.yourcommandpermission
